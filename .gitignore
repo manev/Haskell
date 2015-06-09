@@ -91,9 +91,6 @@ AppPackages/
 # Coverage
 *.js.html
 **/coverage/**
-Telerik.Sitefinity.Frontend/Designers/Scripts/index.html
-Telerik.Sitefinity.Frontend/Mvc/Scripts/Designer/index.html
-Telerik.Sitefinity.Frontend/Mvc/Scripts/index.html
 
 # Others
 [Bb]in
@@ -120,20 +117,12 @@ node_modules
 #Bower directory
 bower_components
 
-Feather.jmconfig
-
-Tests/Telerik.Sitefinity.Frontend.ClientTest/lib
 
 .nuget/NuGet.exe
-Tests/Telerik.Sitefinity.Frontend.ClientTest/test-results.xml
 UpgradeLog*.htm
 
 .grunt
 _SpecRunner.html
 
 #Angular directive templates converted in javascript. Used in client tests.
-Tests/Telerik.Sitefinity.Frontend.ClientTest/templates.js
 /.JustCode
-
-Tests/Telerik.Sitefinity.Frontend.ClientTest/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-Feather.sln.GhostDoc.xml
