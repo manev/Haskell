@@ -22,7 +22,7 @@ namespace HelpHassMeetFriend
                 }
                 else
                 {
-                    if (!routeFinder.TryGetStationsFromLine(line))
+                    if (!routeFinder.TrySetStationsFromLine(line))
                     {
                         Console.WriteLine("Invalid stations! Enter ['Start' 'End' (A B)] station.");
                     }

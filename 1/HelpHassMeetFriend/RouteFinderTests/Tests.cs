@@ -11,7 +11,7 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("H L");
+            routeFinder.TrySetStationsFromLine("H L");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -23,10 +23,10 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("K L");
-            routeFinder.TryGetStationsFromLine("A S");
-            routeFinder.TryGetStationsFromLine("H A");
-            routeFinder.TryGetStationsFromLine("S K");
+            routeFinder.TrySetStationsFromLine("K L");
+            routeFinder.TrySetStationsFromLine("A S");
+            routeFinder.TrySetStationsFromLine("H A");
+            routeFinder.TrySetStationsFromLine("S K");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -38,15 +38,15 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("A C");
-            routeFinder.TryGetStationsFromLine("H A");
-            routeFinder.TryGetStationsFromLine("D B");
-            routeFinder.TryGetStationsFromLine("B M");
-            routeFinder.TryGetStationsFromLine("M R");
-            routeFinder.TryGetStationsFromLine("R K");
-            routeFinder.TryGetStationsFromLine("K L");
-            routeFinder.TryGetStationsFromLine("A D");
-            routeFinder.TryGetStationsFromLine("A B");
+            routeFinder.TrySetStationsFromLine("A C");
+            routeFinder.TrySetStationsFromLine("H A");
+            routeFinder.TrySetStationsFromLine("D B");
+            routeFinder.TrySetStationsFromLine("B M");
+            routeFinder.TrySetStationsFromLine("M R");
+            routeFinder.TrySetStationsFromLine("R K");
+            routeFinder.TrySetStationsFromLine("K L");
+            routeFinder.TrySetStationsFromLine("A D");
+            routeFinder.TrySetStationsFromLine("A B");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -58,15 +58,15 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("A C");
-            routeFinder.TryGetStationsFromLine("A B");
-            routeFinder.TryGetStationsFromLine("H A");
-            routeFinder.TryGetStationsFromLine("A D");
-            routeFinder.TryGetStationsFromLine("D B");
-            routeFinder.TryGetStationsFromLine("B M");
-            routeFinder.TryGetStationsFromLine("M R");
-            routeFinder.TryGetStationsFromLine("R K");
-            routeFinder.TryGetStationsFromLine("K L");
+            routeFinder.TrySetStationsFromLine("A C");
+            routeFinder.TrySetStationsFromLine("A B");
+            routeFinder.TrySetStationsFromLine("H A");
+            routeFinder.TrySetStationsFromLine("A D");
+            routeFinder.TrySetStationsFromLine("D B");
+            routeFinder.TrySetStationsFromLine("B M");
+            routeFinder.TrySetStationsFromLine("M R");
+            routeFinder.TrySetStationsFromLine("R K");
+            routeFinder.TrySetStationsFromLine("K L");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -78,10 +78,10 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("C D");
-            routeFinder.TryGetStationsFromLine("A C");
-            routeFinder.TryGetStationsFromLine("D L");
-            routeFinder.TryGetStationsFromLine("H A");
+            routeFinder.TrySetStationsFromLine("C D");
+            routeFinder.TrySetStationsFromLine("A C");
+            routeFinder.TrySetStationsFromLine("D L");
+            routeFinder.TrySetStationsFromLine("H A");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -93,15 +93,15 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("B M");
-            routeFinder.TryGetStationsFromLine("M R");
-            routeFinder.TryGetStationsFromLine("H A");
-            routeFinder.TryGetStationsFromLine("R K");
-            routeFinder.TryGetStationsFromLine("K L");
-            routeFinder.TryGetStationsFromLine("B R");
-            routeFinder.TryGetStationsFromLine("B R");
-            routeFinder.TryGetStationsFromLine("A B");
-            routeFinder.TryGetStationsFromLine("B K");
+            routeFinder.TrySetStationsFromLine("B M");
+            routeFinder.TrySetStationsFromLine("M R");
+            routeFinder.TrySetStationsFromLine("H A");
+            routeFinder.TrySetStationsFromLine("R K");
+            routeFinder.TrySetStationsFromLine("K L");
+            routeFinder.TrySetStationsFromLine("B R");
+            routeFinder.TrySetStationsFromLine("B R");
+            routeFinder.TrySetStationsFromLine("A B");
+            routeFinder.TrySetStationsFromLine("B K");
 
             string result = string.Join("", routeFinder.GetRoutes());
 
@@ -113,9 +113,9 @@ namespace RouteFinderTests
         {
             var routeFinder = new RouteFinder();
 
-            routeFinder.TryGetStationsFromLine("H L");
-            routeFinder.TryGetStationsFromLine("B L");
-            routeFinder.TryGetStationsFromLine("A L");
+            routeFinder.TrySetStationsFromLine("H L");
+            routeFinder.TrySetStationsFromLine("B L");
+            routeFinder.TrySetStationsFromLine("A L");
 
             string result = string.Join("", routeFinder.GetRoutes());
 

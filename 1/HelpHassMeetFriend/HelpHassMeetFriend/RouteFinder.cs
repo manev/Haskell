@@ -106,7 +106,7 @@ namespace HelpHassMeetFriend
             return this.GetRoutes(result);
         }
 
-        public bool TryGetStationsFromLine(string line)
+        public bool TrySetStationsFromLine(string line)
         {
             StartEndStationItem stations;
             if (this.TryGetStationsFromLine(line, out stations))
