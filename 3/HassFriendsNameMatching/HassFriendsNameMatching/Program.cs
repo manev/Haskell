@@ -17,7 +17,11 @@ namespace HassFriendsNameMatching
 
             while ((input = Console.ReadLine()) != "quit")
             {
-                nameMatcher.CalculateChangeOfSuccess(input);
+                nameMatcher.SetMaleFemaleMatch(input);
+
+                nameMatcher.SetMaleFemaleMatch(Console.ReadLine());
+
+                Console.WriteLine(nameMatcher.CalculateChanceOfSuccess(input));
             }
         }
     }
