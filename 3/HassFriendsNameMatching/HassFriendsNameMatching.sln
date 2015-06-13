@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HassFriendsNameMatching", "HassFriendsNameMatching\HassFriendsNameMatching.csproj", "{0999C59F-9349-4E61-AB9E-A425A594068D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HassFriendsNameMatchingTests", "HassFriendsNameMatchingTests\HassFriendsNameMatchingTests.csproj", "{9A956B8A-DE4D-4473-A5D9-52F5A4E2AC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0999C59F-9349-4E61-AB9E-A425A594068D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0999C59F-9349-4E61-AB9E-A425A594068D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0999C59F-9349-4E61-AB9E-A425A594068D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0999C59F-9349-4E61-AB9E-A425A594068D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A956B8A-DE4D-4473-A5D9-52F5A4E2AC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A956B8A-DE4D-4473-A5D9-52F5A4E2AC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A956B8A-DE4D-4473-A5D9-52F5A4E2AC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A956B8A-DE4D-4473-A5D9-52F5A4E2AC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
