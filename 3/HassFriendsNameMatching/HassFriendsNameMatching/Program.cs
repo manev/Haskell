@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace HassFriendsNameMatching
 {
@@ -19,7 +16,9 @@ namespace HassFriendsNameMatching
             {
                 nameMatcher.SetGenderMatchCount(input);
 
-                nameMatcher.SetGenderMatchCount(Console.ReadLine());
+                Console.WriteLine("Enter names");
+
+                input = Console.ReadLine();
 
                 Console.WriteLine(nameMatcher.CalculateChanceOfSuccess(input));
             }
